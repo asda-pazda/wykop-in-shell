@@ -1,0 +1,3 @@
+curl -v -c cookie.txt -d "user%5Busername%5D=<<cut>>&user%5Bpassword%5D=<<cut>>&__token=f1c14534a7094e86f7f152ddcb6b42c4-1438261728" "https://www.wykop.pl/zaloguj/?fEr\[0\]=ZmQwZmh0dHA6Ly93d3cud3lrb3AucGwv"
+
+curl -b cookie.txt -d "body=%23wifipiszezbasha&parent_id=&__token=d7fd97dbdf692a0ca16bbd2c55007711-1438262154" "http://www.wykop.pl/ajax2/wpis/dodaj/hash/d7fd97dbdf692a0ca16bbd2c55007711-1438262154/?fEr\[0\]=MDE4MGh0dHA6Ly93d3cud3lrb3AucGwvbWlrcm9ibG9nLw%3D%3D"
